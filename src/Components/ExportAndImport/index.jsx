@@ -5,8 +5,8 @@ const url =
 
 const ExportAndImport = () => {
 	return (
-		<div>
-			<h2>Xuất, nhập khẩu (hàng hóa & dịch vụ)</h2>
+		<div className="flex flex-col gap-4">
+			<h2 id="exportAndImport">Xuất, nhập khẩu (hàng hóa & dịch vụ)</h2>
 			<TableauDashboard url={url} />
 			<p>
 				Ta có thể thấy, ở biểu đồ dưới, trong khoảng 10 năm, tình hình xuất nhập khẩu của các nước

@@ -1,6 +1,6 @@
 const SoutEastAsia = () => {
 	return (
-		<div>
+		<div className="flex flex-col gap-4">
 			<h4>Tổng quan về khu vực Đông Nam Á</h4>
 			<p>
 				Xem xét GDP đầu người của các nước, có một khoảng cách rõ ràng giữa 2 nước xếp đầu và các

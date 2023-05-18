@@ -1,23 +1,27 @@
 const Collect = () => {
 	return (
-		<div>
-			<h3>Thu thập dữ liệu</h3>
+		<div className="flex flex-col gap-4">
+			<h3 id="collect">Thu thập dữ liệu</h3>
 			<p>
 				Bộ dữ liệu được lấy từ trang web:{" "}
-				<a href="https://www.imf.org/en/Publications/WEO/weo-database/2023/April">Link</a>
+				<a
+					className="text-pink-600 underline hover:text-cyan-800"
+					href="https://www.imf.org/en/Publications/WEO/weo-database/2023/April">
+					Link
+				</a>
 			</p>
 			<p>
 				Với chủ đề về kinh tế, bộ dữ liệu cho thấy một số giá trị biểu như GDP, lạm phát, giá trị
 				xuất - nhập khẩu,… Bộ dữ liệu bao gồm các các giá trị được lấy từ năm 1998 đến năm 2022.
 			</p>
 			<p>Bộ dữ liệu gồm 3 sheet:</p>
-			<ul>
+			<ul className="flex flex-col gap-4 list-disc pl-8">
 				<li>
 					<b>Sheet Country:</b> Các giá tri, chỉ số kinh tế của 49 nước trong khu vực châu Á
 				</li>
 				<li>
 					<b>Sheet Group:</b> giá trị GDP và dân số của các khu vực châu Á:
-					<ol>
+					<ol className="list-decimal pl-8">
 						<li>Trung Á</li>
 						<li>Đông Nam Á</li>
 						<li>Nam Á</li>
@@ -28,7 +32,7 @@ const Collect = () => {
 				<li>
 					<b>Sheet Region:</b> các chỉ số, giá trị kinh tế của các nhóm nước trên thế giới. Các nhóm
 					nước:
-					<ol>
+					<ol className="list-decimal pl-8">
 						<li>World - Thế giới</li>
 						<li>Advanced economies - Nước có kinh tế phát triển</li>
 						<li>Euro area - Khu vực Châu u</li>

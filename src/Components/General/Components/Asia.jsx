@@ -1,6 +1,6 @@
 const Asia = () => {
 	return (
-		<div>
+		<div className="flex flex-col gap-4">
 			<h4>Tổng quan về các khu vực Châu Á</h4>
 			<p>
 				Nhìn sơ lược, chúng ta có thể dễ dàng thấy Đông Á có tổng số GDP (25,160 tỉ USD) vượt bậc so

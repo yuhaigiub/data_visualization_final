@@ -5,8 +5,8 @@ const url =
 
 const Inflation = () => {
 	return (
-		<div>
-			<h2>Tỉ lệ lạm phát ở Việt Nam</h2>
+		<div className="flex flex-col gap-4">
+			<h2 id="inflation">Tỉ lệ lạm phát ở Việt Nam</h2>
 			<TableauDashboard url={url} />
 			<p>
 				Từ khoảng năm 1998 đến năm 2013, lạm phát tăng giảm không đồng đều ở nước ta, có cả tình

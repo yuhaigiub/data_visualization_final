@@ -1,6 +1,6 @@
 const Part2 = () => {
 	return (
-		<div>
+		<div className="flex flex-col gap-4">
 			<h3>Mục tiêu tăng GDP thu nhập bình quân đầu người:</h3>
 			<p>
 				Tác nhân ảnh hưởng tới thu nhập bình quân đầu người: Tổng lượng GDP, dân số và tỉ lệ thất
@@ -9,7 +9,7 @@ const Part2 = () => {
 			<p>
 				<b>Giải pháp</b>
 			</p>
-			<ul>
+			<ul className="list-disc pl-8 flex flex-col gap-2">
 				<li>
 					<b>Tổng sản lượng GPA:</b> như đã nói ở trên.
 				</li>

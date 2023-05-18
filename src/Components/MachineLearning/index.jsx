@@ -1,10 +1,10 @@
 const MachineLearning = () => {
 	return (
-		<div>
-			<h2>Phân tích học máy</h2>
+		<div className="flex flex-col gap-4">
+			<h2 id="machineLearning">Phân tích học máy</h2>
 			<h3>Mối quan hệ giữa lạm phát và tăng trưởng</h3>
 			<p>Đa số các quốc gia đều theo đuổi bốn mục tiêu kinh tế cơ bản. Đó là:</p>
-			<ol>
+			<ol className="list-decimal pl-8">
 				<li>Tăng trưởng đạt mức cao</li>
 				<li>Lạm phát ở con số thấp</li>
 				<li>Tỷ lệ thất nghiệp ở mức ít</li>
@@ -22,8 +22,8 @@ const MachineLearning = () => {
 				{"=>"} Chính vì mối qua hệ của GDP và lạm phát phát nhóm tin rằng có thể dự đoán được GDP
 				của tiếp theo dựa vào GDP và giá trị lạm phát của năm hiện tại.
 			</p>
-			<p>Những thuộc tính sử dụng trong mô hình là GDP và lạm phát của năm</p>
-			<ul>
+			<p>Những thuộc tính sử dụng trong mô hình là GDP và lạm phát của năm:</p>
+			<ul className="list-disc pl-8">
 				<li>
 					GDP và lạm phát của năm <b>N</b> - đây là input của bài toán.
 				</li>

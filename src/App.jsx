@@ -9,11 +9,13 @@ import {
 	Introduction,
 } from "./Components/_index";
 
+import Navbar from "./Components/Navbar";
+
 function App() {
 	return (
-		<div className="pr-36 grid grid-cols-[2fr_8fr] gap-12">
-			<div className="h-full bg-pink-300"></div>
-			<div>
+		<div className="pt-24 pb-48 pr-36 grid grid-cols-[3fr_7fr] gap-12">
+			<Navbar />
+			<div className="flex flex-col gap-16">
 				<Introduction />
 				<General />
 				<Unemployment />

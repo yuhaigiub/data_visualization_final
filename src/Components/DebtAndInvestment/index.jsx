@@ -8,8 +8,8 @@ const url2 =
 
 const DebtAndInvestment = () => {
 	return (
-		<div>
-			<h2>Tỉ lệ nợ chính phủ + đầu tư</h2>
+		<div className="flex flex-col gap-4">
+			<h2 id="debt">Tỉ lệ nợ chính phủ + đầu tư</h2>
 			<TableauDashboard url={url1} />
 			<p>Ta thấy được rằng màu của vùng Châu Á và Châu Phi đậm hơn các vùng khác,lý do là:</p>
 			<ul>

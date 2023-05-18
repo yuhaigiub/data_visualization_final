@@ -4,8 +4,8 @@ const url = "https://public.tableau.com/shared/GW9973SDB?:display_count=n&:origi
 
 const Unemployment = () => {
 	return (
-		<div>
-			<h2>Tỉ lệ thất nghiệp ở Việt Nam</h2>
+		<div className="flex flex-col gap-4">
+			<h2 id="unemployment">Tỉ lệ thất nghiệp ở Việt Nam</h2>
 			<TableauDashboard url={url} />
 			<p>
 				Vào các mốc năm như 2008-2009 là thời điểm của cuộc khủng hoảng tài chính toàn cầu. Tuy
@@ -15,7 +15,7 @@ const Unemployment = () => {
 				Nếu chia ra 2 mốc thời gian, trước cuộc khủng hoảng tài chính từ 1998 đến 2007, và sau cuộc
 				khủng hoảng từ 2010 đến 2022. Thì:
 			</p>
-			<ul>
+			<ul className="list-disc pl-8">
 				<li>Tỉ lệ thất nghiệp trung bình trước khủng hoảng tài chính là 5.845%</li>
 				<li>Tỉ lệ thất nghiệp trung bình sau khủng hoảng tài chính chỉ còn 2.391875 %</li>
 			</ul>

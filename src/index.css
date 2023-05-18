@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+	scroll-behavior: smooth;
+}
+
 table {
 	border-collapse: collapse;
 	width: 100%;
@@ -33,7 +37,7 @@ h6 {
 }
 
 h2 {
-	font-size: 3rem;
+	font-size: 2.5rem;
 	margin-bottom: 1rem;
 }
 
@@ -49,5 +53,12 @@ h4 {
 
 img {
 	display: block;
+	max-width: 100%;
+	object-fit: cover;
 	margin: auto;
+}
+
+nav a:hover {
+	color: rgb(5, 136, 18);
+	text-decoration: underline;
 }

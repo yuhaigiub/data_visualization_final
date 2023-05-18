@@ -1,15 +1,15 @@
 const Part1 = () => {
 	return (
-		<div>
+		<div className="flex flex-col gap-4">
 			<h3>Mục tiêu tăng GDP:</h3>
 			<p>
 				Các tác nhân (thuộc tính) ảnh hưởng chính đến GDP là: là sản lượng xuất nhập - khẩu và đầu
 				tư kinh tế.
 			</p>
 			<p>
-				<b>Giải pháp</b>
+				<b>Giải pháp:</b>
 			</p>
-			<ul>
+			<ul className="list-disc pl-8 flex flex-col gap-2">
 				<li>
 					<b>Đầu tư nước ngoài:</b> chúng ta phải khuyến khích và lỗi kéo các nguồn đầu tư từ nước
 					ngoài, đặc biệt là chúng ta có 3 quốc gia đối tác đầu tư lớn là tính đến năm 2022

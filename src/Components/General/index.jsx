@@ -1,15 +1,16 @@
 import TableauDashboard from "../../TableauDashboard";
 import Asia from "./Components/Asia";
+import SouthEastAsia from "./Components/SoutEastAsia";
 
 const url =
 	"https://public.tableau.com/views/economic_overall/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link";
 
 const General = () => {
 	return (
-		<div>
-			<h2>Tổng quan</h2>
+		<div className="flex flex-col gap-8">
+			<h2 id="general">Tổng quan</h2>
 			<TableauDashboard url={url} />
-			<h2>Mô tả Dashboard</h2>
+			<h3 id="dashboard">Mô tả Dashboard</h3>
 			<p>
 				Mục tiêu nhóm hướng tới là phân tích kinh tế của các nước châu Á và so sánh với Việt Nam.
 				Các nước Châu Á được chia thành 5 khu vực lần lượt là Trung Á, Đông Á, Nam á, Đông Nam á và
@@ -23,8 +24,9 @@ const General = () => {
 				người trên 1 năm của mỗi quốc gia. Cuối cùng biểu đồ đường thể hiện sự thay đổi GDP qua các
 				năm của từng nước.
 			</p>
-			<h3>Phân tích</h3>
+			<h3 id="analyze">Phân tích</h3>
 			<Asia />
+			<SouthEastAsia />
 		</div>
 	);
 };
