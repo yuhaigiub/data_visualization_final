@@ -62,3 +62,8 @@ nav a:hover {
 	color: rgb(5, 136, 18);
 	text-decoration: underline;
 }
+
+p,
+li {
+	text-align: justify;
+}

@@ -1,7 +1,7 @@
 const Navbar = () => {
 	return (
 		<div className="h-full">
-			<nav className="sticky top-40">
+			<nav className="sticky top-1/4">
 				<div className="text-center font-bold text-2xl">Mục lục</div>
 				<div className="bg-pink-300 h-0.5 mx-4 my-2" />
 				<ul className="pl-8 flex flex-col gap-1 list-disc">
