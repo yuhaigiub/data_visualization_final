@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+td,
+th {
+	border: 1px solid #444444;
+	text-align: left;
+	padding: 8px;
+}
+
+tr:nth-child(even) {
+	background-color: #dddddd;
+}
+
+tr {
+	display: grid;
+	grid-template-columns: 4fr 6fr;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+h3 {
+	font-size: 2rem;
+	margin-bottom: 0.75rem;
+}
+
+h4 {
+	font-size: 1.5rem;
+	margin-bottom: 0.5rem;
+}
+
+img {
+	display: block;
+	margin: auto;
+}
