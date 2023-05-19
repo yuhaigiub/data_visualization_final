@@ -12,12 +12,12 @@ const Unemployment = () => {
 				nhiên tỉ lệ thất nghiệp lại bắt đầu giảm mạnh từ năm 2008.
 			</p>
 			<p>
-				Nếu chia ra 2 mốc thời gian, trước cuộc khủng hoảng tài chính từ 1998 đến 2007, và sau cuộc
-				khủng hoảng từ 2010 đến 2022. Thì:
+				Nếu chia ra 2 mốc thời gian, từ 1998 tới lúc khủng hoảng tài chính 2009, và sau cuộc khủng
+				hoảng từ 2010 đến 2022. Thì:
 			</p>
 			<ul className="list-disc">
-				<li>Tỉ lệ thất nghiệp trung bình trước khủng hoảng tài chính là 5.845%</li>
-				<li>Tỉ lệ thất nghiệp trung bình sau khủng hoảng tài chính chỉ còn 2.391875 %</li>
+				<li>Tỉ lệ thất nghiệp trung bình trước khủng hoảng tài chính là 5.31%</li>
+				<li>Tỉ lệ thất nghiệp trung bình sau khủng hoảng tài chính chỉ còn 2.35%</li>
 			</ul>
 			<p>
 				Từ năm 2020 khi có sự xuất hiện của dịch Covid, tỉ lệ thất nghiệp ở Việt Nam tăng nhẹ từ

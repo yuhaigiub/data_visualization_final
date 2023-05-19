@@ -13,6 +13,7 @@ const Relation = () => {
 	return (
 		<div className="flex flex-col gap-4">
 			<h3 id="relation">Phân tích quan hệ</h3>
+			<img src="fig1.jpg" />
 			<p>
 				Nhìn vào ma trận tương quan của các thuộc tính để thấy các thuộc tính phần lớn có độ tương
 				quan thấp.

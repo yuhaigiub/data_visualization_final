@@ -36,6 +36,11 @@ const MachineLearning = () => {
 			<img src="fig4.jpg" />
 			<p>Mô hình ta có là:</p>
 			<img src="fig5.jpg" />
+			<img src="fig6.jpg" />
+			<p className="italic">
+				Sau khi trực quan nhận thấy giá trị thực thế và dự đoán chênh lệch không nhiều. Điều này cho
+				thấy giá trị GDP năm tới có thể được dự đoán từ các giá trị GDP và Inflation của hiện tại
+			</p>
 		</div>
 	);
 };
