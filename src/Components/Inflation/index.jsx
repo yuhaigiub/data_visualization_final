@@ -1,7 +1,7 @@
 import TableauDashboard from "../../TableauDashboard";
 
 const url =
-	"https://public.tableau.com/views/DashboardvtllmphtVitNam/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link";
+	"https://public.tableau.com/views/LmphtVitNam/Dashboard?:language=en-US&:display_count=n&:origin=viz_share_link";
 
 const Inflation = () => {
 	return (

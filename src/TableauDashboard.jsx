@@ -8,7 +8,9 @@ const TableauDashboard = ({ url }) => {
 		const viz = new tableau.Viz(ref.current, url);
 	}, [url]);
 
-	return <div ref={ref} style={{ width: "100%", aspectRatio: "16/9" }} />;
+	return (
+		<div ref={ref} style={{ width: "100%", aspectRatio: "16/9", border: "1px solid black" }} />
+	);
 };
 
 export default TableauDashboard;
