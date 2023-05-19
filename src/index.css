@@ -24,6 +24,20 @@ th {
 	align-items: center;
 }
 
+td:nth-child(odd),
+th:nth-child(odd) {
+	border-right: 0;
+}
+
+th,
+td {
+	border-bottom: 0;
+}
+
+tr:last-child td {
+	border-bottom: 1px solid #444444;
+}
+
 tr:nth-child(even) {
 	background-color: #dddddd;
 }

@@ -8,11 +8,13 @@ const Preprocessing = () => {
 					thành các thuộc tính.
 				</li>
 				<li>
-					Thống kê tỉ lệ mất dữ liệu của các năm.
+					Thống kê tỉ lệ mất dữ liệu của các năm:
+					<img src="fig7.png" className="py-2" />
 					<div className="pl-8">→ Chọn ra khoảng thời gian đủ dữ liệu nhất: từ 1998-2022.</div>
 				</li>
 				<li>
-					Thống kê tỉ lệ mất dữ liệu của các nước.
+					Thống kê tỉ lệ mất dữ liệu của các nước:
+					<img src="fig8.png" className="py-2" />
 					<div className="pl-8">→ Loại đi các nước: Iraq, Syria, Macao SAR, Afghanistan.</div>
 				</li>
 				<li>Tạo thuộc tính Regions: với giá trị từng khu vực của Châu Á.</li>
