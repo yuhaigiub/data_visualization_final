@@ -4,7 +4,7 @@ const MachineLearning = () => {
 			<h2 id="machineLearning">Phân tích học máy</h2>
 			<h3>Mối quan hệ giữa lạm phát và tăng trưởng</h3>
 			<p>Đa số các quốc gia đều theo đuổi bốn mục tiêu kinh tế cơ bản. Đó là:</p>
-			<ol className="list-decimal pl-8">
+			<ol className="list-decimal">
 				<li>Tăng trưởng đạt mức cao</li>
 				<li>Lạm phát ở con số thấp</li>
 				<li>Tỷ lệ thất nghiệp ở mức ít</li>
@@ -23,7 +23,7 @@ const MachineLearning = () => {
 				của tiếp theo dựa vào GDP và giá trị lạm phát của năm hiện tại.
 			</p>
 			<p>Những thuộc tính sử dụng trong mô hình là GDP và lạm phát của năm:</p>
-			<ul className="list-disc pl-8">
+			<ul className="list-disc">
 				<li>
 					GDP và lạm phát của năm <b>N</b> - đây là input của bài toán.
 				</li>

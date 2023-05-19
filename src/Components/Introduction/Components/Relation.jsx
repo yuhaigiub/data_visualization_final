@@ -18,7 +18,7 @@ const Relation = () => {
 				quan thấp.
 			</p>
 			<p>Tuy nhiên có một số thuộc tính có độ tương quan cao như: </p>
-			<ul className="list-disc pl-8">
+			<ul className="list-disc">
 				<li>GDP và dân số (population).</li>
 				<li>Số lượng hàng hóa và dịch vụ xuất khẩu và nhập khấu.</li>
 				<li>Số dư vãng lai và GDP.</li>

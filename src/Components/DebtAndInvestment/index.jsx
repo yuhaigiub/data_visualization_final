@@ -1,10 +1,10 @@
 import TableauDashboard from "../../TableauDashboard";
 
 const url1 =
-	"https://public.tableau.com/app/profile/c.i.minh.ch.nh/viz/project_total_investment/Sheet1";
+	"https://public.tableau.com/views/project_total_investment/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link";
 
 const url2 =
-	"https://public.tableau.com/app/profile/c.i.minh.ch.nh/viz/project_general_government_net_lending/Sheet3";
+	"https://public.tableau.com/views/Generalgovernmentnetlendingborrowing/Dashboard2?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link";
 
 const DebtAndInvestment = () => {
 	return (
@@ -34,9 +34,49 @@ const DebtAndInvestment = () => {
 			</ul>
 			<TableauDashboard url={url2} />
 			<p>
-				ta thấy các nước có giá trị dương ít hơn rất nhiều so với các nước có giá trị âm {"=>"} phần
-				lớn các nước trên thế giới hiện nay đều đang nợ rất nhiều
+				là một chỉ số kinh tế thể hiện sự chênh lệch giữa thu nhập và chi tiêu của chính phủ trong
+				một giai đoạn nhất định. Nếu chỉ số này có giá trị dương, tức là chính phủ đang cho vay hoặc
+				tăng dự trữ tiền, nếu chỉ số này có giá trị âm, tức là chính phủ đang vay tiền hoặc giảm dự
+				trữ tiền. Ta chia thời gian ra thành 3 giai đoạn, giai đoạn 1 từ 1998 đến 2006, giai đoạn 2
+				từ 2007 đến 2015 và giai đoạn 3 là phần còn lại.
 			</p>
+			<p className="font-bold">Giai đoạn 1</p>
+			<ul className="flex flex-col gap-2 list-disc">
+				<li>
+					Azerbaijan, Brunei, Darussalam, Kazakhstan, Korea, Kuwait, Macao SAR, Oman, Qatar, Saudi
+					Arabia, Singapore, Timor-Leste, Turkmenistan, United Arab Emirates là các nước có giá trị
+					GNL dương với nước lớn nhất là Kuwait với tổng giá trị 216.4. Các lý do khả quan nhất dẫn
+					đến việc này có thể là: chính sách tài khóa, ngành công nghiệp phát triển, tăng trưởng
+					kinh tế, quản lý tài chính.
+				</li>
+				<li>Các nước còn lại mang giá trị âm và nước mang giá trị âm lớn nhất là Lebanon.</li>
+			</ul>
+
+			<p className="font-bold">Giai đoạn 2</p>
+			<ul className="flex flex-col gap-2 list-disc">
+				<li>
+					Các nước mang giá trị GNL Dương lúc này đã thay đổi thànhi : Azerbaijan, Brunei
+					Darussalam, Hong Kong SAR, Kazakhstan, Korea, Kuwait, Macao SAR, Oman, Qatar, Saudi
+					Arabia, Singapore, Tajikistan, Turkmenistan, United Arab Emirates, Uzbekistan. Và Kuwait
+					vẫn là nước có giá trị GNL lớn nhất với 236.7.
+				</li>
+				<li>
+					Nước mang giá trị GNL âm lớn nhất giai đoạn này đã là Timor-Leste với giá trị -234.5.
+				</li>
+			</ul>
+
+			<p className="font-bold">Giai đoạn 3</p>
+			<ul className="flex flex-col gap-2 list-disc">
+				<li>
+					Giai đoạn này có 1 biến động rất lớn là Covid-19 đã ảnh hưởng rất nhiều đến các quốc gia
+					đang khảo sát.
+				</li>
+				<li>
+					Lúc này chỉ còn các nước: Azerbaijan, Korea, Kuwait, Qatar, Singapore, United Arab Emirate
+					mang giá trị GNL dương vì ảnh hưởng bởi Covid với nước GNL lớn nhất là Qatar với 59.4
+				</li>
+				<li>Nước mang giá trị GNL âm lớn nhất giai đoạn vẫn là Timor-Leste với giá trị -280.9.</li>
+			</ul>
 		</div>
 	);
 };

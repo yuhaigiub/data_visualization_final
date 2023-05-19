@@ -9,7 +9,7 @@ const Part1 = () => {
 			<p>
 				<b>Giải pháp:</b>
 			</p>
-			<ul className="list-disc pl-8 flex flex-col gap-2">
+			<ul className="list-disc flex flex-col gap-2">
 				<li>
 					<b>Đầu tư nước ngoài:</b> chúng ta phải khuyến khích và lỗi kéo các nguồn đầu tư từ nước
 					ngoài, đặc biệt là chúng ta có 3 quốc gia đối tác đầu tư lớn là tính đến năm 2022

@@ -15,13 +15,13 @@ const Collect = () => {
 				xuất - nhập khẩu,… Bộ dữ liệu bao gồm các các giá trị được lấy từ năm 1998 đến năm 2022.
 			</p>
 			<p>Bộ dữ liệu gồm 3 sheet:</p>
-			<ul className="flex flex-col gap-4 list-disc pl-8">
+			<ul className="flex flex-col gap-4 list-disc">
 				<li>
 					<b>Sheet Country:</b> Các giá tri, chỉ số kinh tế của 49 nước trong khu vực châu Á
 				</li>
 				<li>
 					<b>Sheet Group:</b> giá trị GDP và dân số của các khu vực châu Á:
-					<ol className="list-decimal pl-8">
+					<ol className="list-decimal">
 						<li>Trung Á</li>
 						<li>Đông Nam Á</li>
 						<li>Nam Á</li>
@@ -32,7 +32,7 @@ const Collect = () => {
 				<li>
 					<b>Sheet Region:</b> các chỉ số, giá trị kinh tế của các nhóm nước trên thế giới. Các nhóm
 					nước:
-					<ol className="list-decimal pl-8">
+					<ol className="list-decimal">
 						<li>World - Thế giới</li>
 						<li>Advanced economies - Nước có kinh tế phát triển</li>
 						<li>Euro area - Khu vực Châu u</li>

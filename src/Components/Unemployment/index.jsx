@@ -15,7 +15,7 @@ const Unemployment = () => {
 				Nếu chia ra 2 mốc thời gian, trước cuộc khủng hoảng tài chính từ 1998 đến 2007, và sau cuộc
 				khủng hoảng từ 2010 đến 2022. Thì:
 			</p>
-			<ul className="list-disc pl-8">
+			<ul className="list-disc">
 				<li>Tỉ lệ thất nghiệp trung bình trước khủng hoảng tài chính là 5.845%</li>
 				<li>Tỉ lệ thất nghiệp trung bình sau khủng hoảng tài chính chỉ còn 2.391875 %</li>
 			</ul>

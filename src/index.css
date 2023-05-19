@@ -67,3 +67,8 @@ p,
 li {
 	text-align: justify;
 }
+
+ul,
+ol {
+	padding-left: 2rem;
+}

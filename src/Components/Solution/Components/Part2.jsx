@@ -9,7 +9,7 @@ const Part2 = () => {
 			<p>
 				<b>Giải pháp</b>
 			</p>
-			<ul className="list-disc pl-8 flex flex-col gap-2">
+			<ul className="list-disc flex flex-col gap-2">
 				<li>
 					<b>Tổng sản lượng GPA:</b> như đã nói ở trên.
 				</li>

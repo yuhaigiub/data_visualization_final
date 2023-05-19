@@ -13,9 +13,9 @@ import Navbar from "./Components/Navbar";
 
 function App() {
 	return (
-		<div className="pt-24 pb-48 pr-36 grid grid-cols-[3fr_7fr] gap-12">
+		<div className="grid grid-cols-[3fr_7fr]">
 			<Navbar />
-			<div className="flex flex-col gap-16">
+			<div className="flex flex-col gap-16 px-24 pt-24 pb-48">
 				<Introduction />
 				<General />
 				<Unemployment />
