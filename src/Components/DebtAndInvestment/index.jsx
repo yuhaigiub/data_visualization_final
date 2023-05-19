@@ -1,7 +1,7 @@
 import TableauDashboard from "../../TableauDashboard";
 
 const url1 =
-	"https://public.tableau.com/views/project_total_investment/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link";
+	"https://public.tableau.com/views/Totalinvestment/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link";
 
 const url2 =
 	"https://public.tableau.com/views/Generalgovernmentnetlendingborrowing/Dashboard2?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link";
